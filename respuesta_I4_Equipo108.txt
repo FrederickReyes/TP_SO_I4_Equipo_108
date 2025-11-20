@@ -1,0 +1,29 @@
+RESPUESTAS - EQUIPO GAMMA
+
+A) Color de fondo en TESTING:
+BLUE
+
+B) Color de fondo en DESARROLLO:
+YELLOW
+
+C) Color de fondo en MASTER:
+BLUE (el último merge fue desde TESTING, por lo tanto su color se mantiene)
+
+D) Favicon en MASTER:
+El favicon de BETA (su merge final pisa al de ALFA)
+
+E) ¿Algún integrante tuvo problemas al hacer el push?
+Sí, GAMMA tuvo conflictos al intentar hacer el push final.
+
+F) ¿Qué problemas surgieron?
+Conflictos de merge en el archivo index.html porque los tres integrantes modificaron la misma sección.
+
+G) Posibles soluciones y consecuencias:
+- Resolver los conflictos manualmente y realizar commit: conserva los tres párrafos.
+- Usar 'push -f': fuerza la subida, pero puede eliminar el trabajo de los demás.
+
+H) ¿Qué sucede si cada uno usa 'push -f'?
+Se pisan las versiones entre sí y se pierden los cambios de los otros compañeros.
+
+I) ¿Cómo lograr que el archivo index.html contenga los párrafos de los tres integrantes en DESARROLLO?
+Realizando un merge desde TESTING hacia DESARROLLO y resolviendo los conflictos manualmente, conservando todos los párrafos.
